@@ -6,7 +6,7 @@ pygame.init()
 
 print sys.argv[1]
 # my stuff
-image = pygame.image.load(sys.argv[1])
+image = pygame.image.load()
 
 for x in xrange(0, image.get_rect().size[0]):
     print x+1
